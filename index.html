@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        
+        <title>Blog Example</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="blogstyle.css" media="screen">
+        
+    </head>
+    
+    <body>
+        
+        <h1 id="title-page">Los pasos a la página Web</h1>
+        <h2> Contenido </h2>
+        
+        <nav >
+            
+        <ul>
+            <li><a href="#primera-entrada">Acerca de HTML5</a></li>
+            <li><a href="#segunda-entrada">Relacion entre HTML & CSS</a></li>
+        </ul>
+            
+        </nav> 
+        
+        <!--primera entrada-->
+            
+        <h2 id="primera-entrada">Acerca de HTML5</h2>
+        
+        <h6 class="date-post"> Publicado 14 Agosto 2019</h6>
+        
+        <p>Lo primero que hay que entender es que es el HTML.Por sus siglas al 
+        ingles, es <em> HYPER TEXT MARKUP LANGUAGE </em>.Donde viendolo mejor 
+        su nombre nos indica mucho y <strong>poco</strong> para los que somos novatos,
+        de manera que sin caer en tecnicismos transcendentales,podemos definirlo
+        como un lenguaje hecho para la estructuracion de contenido en un 
+        documento &ast;.html los cuales son la base en la organizacion de 
+        contenido en paginas web.</p>
+        
+        <p>Ahora enfocandonos en los fundamentos de este lenguaje, lo mas elemental
+        son las denominadas <strong>etiquetas</strong> representados por &lt;nombre de etiqueta&gt;
+        siendo estos los elementos semanticos propios del lenguaje que tienen 
+        diversas funciones como las de estructurar el texto, cargar y determinar 
+        archivos multimedias como imagenes o videos, enlazar otros documentos,
+        enlazar otros sitios web, entre muchas otras funciones.Por los momentos tengo
+        conocimiento de dos tipos de etiquetas, la cerradas las cuales son utilizadas con
+        dos etiquetas, una de apertura y otra de cierre(&lt;/etiqueta&gt;) y que 
+        generalmente abrazan un texto al cual le aplican una accion de estructura, estilo, vinculacion
+        o cualquier otra cosa posible en el mundo de la pg webs.La segunda version de las etiquetas
+        son las abiertas las cuales solo usan la etiqueta de apertura y no tienen accion directa 
+        sobre un texto.Otro concepto de este lenguaje destacable para esta sección es el atributo el cual es un 
+        complemento de la etiqueta representado de la siguiente manera &lt; tag atributo="valor de atributo&gt;
+        y en algunos casos es imperativo su uso para la correcta accion de una etiqueta particular.</p>
+        
+        <!--segunda entrada-->
+        
+        <h2 id="segunda-entrada">Relacion entre HTML & CSS</h2>
+        
+        <h6 class="date-post"> Publicado 14 Agosto 2019</h6>
+        
+             <p>En esta entrada hablaremos de la relacion del CSS y HTML. Resulta que los estandares actuales para la creacion de pg
+            webs estipulan el uso de un lenguaje <em>CASCADING STYLE SHEET</em>, el cual sustituye y amplia las funciones de &quot;estilar&quot;
+            el contenido del documento HTML. Este dispone de su propia sintaxis donde se habla de selectores, reglas de estilo y 
+            propiedades, con este lenguaje modifica la fuente, el tamaño de fuente, la estetica de fondo, los margenes entre otras acciones, que 
+            ya mas adelante sobre la marcha de mi aprendizaje ire actualizando en este post.</p>
+             
+             <table id="t-css">
+                 <caption id="table-head">Algunas propiedades de css</caption> 
+                 <thead>
+                    
+                     <tr>
+                         <th class="td-heading">Propíedad CSS</th>
+                         <th class="td-heading">Descripción</th>
+                         <th class="td-heading">Valores&QUOT;&QUOT;</th>
+                     </tr>
+                   
+                 </thead>
+                 
+                 <tbody id="table-body">
+                     
+                     <tr>
+                         <td>font-family</td>
+                         <td>selecciona una fuente</td>
+                         <td>monospace, san-serif, serif, cursive etc</td>
+                     </tr>
+                     
+                     <tr>
+                         <td>font-size</td>
+                         <td>determina el tamaño de la fuente</td>
+                         <td>px, em, %, etc</td>
+                     </tr>
+                     
+                     <tr>
+                         <td>font-weight</td>
+                         <td>determina el espesor de letra</td>
+                         <td>bold, bolder, inherit etc</td>
+                     </tr>
+                     
+                     <tr>
+                         <td>font-style</td>
+                         <td>determina el estilo inclinado o no del texto</td>
+                         <td>italic, monospace, inherit, normal, etc</td>
+                     </tr>
+                     
+                     <tr>
+                         <td>padding</td>
+                         <td>modifica el tamaño del area del elemento</td>
+                         <td>px, em, % etc</td>
+                     </tr>
+                     
+                     <tr>
+                         <td>margin</td>
+                         <td>ajusta el margen de todo apartir de un elemento referencia en sentido diagonal</td>
+                         <td>px</td>
+                     </tr>
+                     
+                     <tr>
+                         <td>margin-top</td>
+                         <td>ajusta el margen de todo apartir de un elemento referencia alejandose del tope</td>
+                         <td>px</td>
+                     </tr>
+                     
+                     <tr>
+                         <td>margin-bottom</td>
+                         <td>ajusta el margen de todo apartir de un elemento referencia alejandose del fondo</td>
+                         <td>px</td>
+                     </tr>
+                     <tr>
+                         <td>margin-left</td>
+                         <td>ajusta el margen de todo apartir de un elemento referencia alejandose del borde izquierdo</td>
+                         <td>px</td>
+                     </tr>
+                      <tr>
+                         <td>margin-right</td>
+                         <td>ajusta el margen de todo apartir de un elemento referencia alejandose del borde derecho</td>
+                         <td>px</td>
+                     </tr>
+                     
+                      <tr>
+                         <td>line-height</td>
+                         <td>ajusta la separacion entre lineas de texto</td>
+                         <td>px, em, % etc</td>
+                     </tr>
+                     
+                      <tr>
+                         <td>text align</td>
+                         <td>ajusta la posicion del texto</td>
+                         <td>normal, center, rigth, end, left etc</td>
+                     </tr>
+                     
+                      <tr>
+                         <td>border</td>
+                         <td>genera un marco de alrededor de un elemento bloque</td>
+                         <td>1px rgb()</td>
+                     </tr>
+                     
+                 </tbody>
+             </table>
+                             
+    </body>
+</html>
